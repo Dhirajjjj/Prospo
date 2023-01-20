@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Working!"
+    return "Working! (Churi GAY)"
 
 @app.route('/upload', methods=["POST"])
 def upload():
